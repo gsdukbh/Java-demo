@@ -10,12 +10,18 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Slf4j
-@RabbitListener(queues = "order.cancel")
 public class CancelOrderReceiver {
 
+    @RabbitListener(queues = "order.cancel")
     @RabbitHandler
     public void handle(String orderId){
         log.info("cancel order id :{}",orderId);
     }
 
+
+    @RabbitListener(queues = "order.direct")
+    @RabbitHandler
+    public void handle1(Order order){
+        log.info(order.toString());
+    }
 }

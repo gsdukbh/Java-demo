@@ -11,6 +11,7 @@ public enum QueueEnum {
      * 通知队列
      */
     QUEUE_NOTICE("order.direct", "order.cancel", "order.cancel"),
+    QUEUE_ORDER("order.direct","direct","direct"),
     /**
      * 超时队列
      */

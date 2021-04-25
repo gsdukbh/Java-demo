@@ -38,6 +38,12 @@ public class RabbitMqConfig {
         return new Queue(QueueEnum.QUEUE_NOTICE.getName());
     }
 
+
+    @Bean
+    public Queue orderDirectQueue(){
+        return new Queue(QueueEnum.QUEUE_ORDER.getExchange());
+    }
+
     /**
      * 订单延迟队列（死信队列）
      */
@@ -53,7 +59,7 @@ public class RabbitMqConfig {
     }
 
     /**
-     * 将订单队列绑定到交换机
+     * 将订单队列绑定到router key
      */
     @Bean
     Binding orderBinding(DirectExchange orderDirect, Queue orderQueue){
@@ -62,6 +68,15 @@ public class RabbitMqConfig {
                 .to(orderDirect)
                 .with(QueueEnum.QUEUE_NOTICE.getRouteKey());
     }
+
+    @Bean
+    Binding orderBindingD(DirectExchange orderDirect, Queue orderDirectQueue){
+        return BindingBuilder
+                .bind(orderDirectQueue)
+                .to(orderDirect)
+                .with(QueueEnum.QUEUE_ORDER.getRouteKey());
+    }
+
     /**
      * 将订单延迟队列绑定到交换机
      */

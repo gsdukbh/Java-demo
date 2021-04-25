@@ -3,12 +3,14 @@ package top.werls.springbootrabbitmqdemo2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 
+/**
+ * @author leejiawei
+ */
 @SpringBootApplication
-@RestController
+@EnableScheduling
 public class SpringbootRabbitmqDemo2Application {
 
     public static void main(String[] args) {
@@ -18,12 +20,14 @@ public class SpringbootRabbitmqDemo2Application {
     @Autowired
     private CancelOrderSender cancelOrderSender;
 
-    @GetMapping("/")
-    public String test() {
-        //
-        long delayTimes = 30 * 1000;
+    @Scheduled(fixedRate = 1000*3)
+    public void test() {
+        long delayTimes = 2 * 1000;
         cancelOrderSender.sendMessage("100", delayTimes);
-        return "OK";
+        Order order = new Order();
+        order.setId(12L);
+        order.setName("nme");
+        cancelOrderSender.sendMessages(order,delayTimes);
     }
 
 
