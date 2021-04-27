@@ -35,13 +35,13 @@ public class RabbitMqConfig {
      */
     @Bean
     public Queue orderQueue() {
-        return new Queue(QueueEnum.QUEUE_NOTICE.getName());
+        return new Queue(QueueEnum.QUEUE_NOTICE.getName(),false,false,true);
     }
 
 
     @Bean
     public Queue orderDirectQueue(){
-        return new Queue(QueueEnum.QUEUE_ORDER.getExchange());
+        return new Queue(QueueEnum.QUEUE_ORDER.getExchange(),false,false,true);
     }
 
     /**
