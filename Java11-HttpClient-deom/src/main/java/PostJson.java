@@ -65,9 +65,11 @@ public class PostJson {
                 .build();
 
 
-        CompletableFuture<Object> future = client
+        CompletableFuture<String> future = client
                 .sendAsync(httpRequest, HttpResponse.BodyHandlers.ofString())
                 .thenApply(HttpResponse::body);
+
+
         System.out.println("future:  " + future.get());
 
     }

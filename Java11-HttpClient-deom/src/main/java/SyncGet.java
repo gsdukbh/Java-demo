@@ -1,3 +1,6 @@
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -17,6 +20,10 @@ public class SyncGet {
                 .build();
 
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+
+        JSONObject object= JSON.parseObject(response.body());
+
+        System.out.println(object.getJSONObject("headers"));
         System.out.println("response: " + response.body());
 
 
