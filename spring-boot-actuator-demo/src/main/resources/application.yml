@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "*"
+    web:
+      exposure:
+        include: "*"
+      base-path: /info
+      cors:
+        allowed-methods: "*"
+        allowed-origins: "*"

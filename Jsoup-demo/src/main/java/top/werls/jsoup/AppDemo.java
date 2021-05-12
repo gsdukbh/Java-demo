@@ -11,12 +11,16 @@ import org.jsoup.select.Elements;
  */
 public class AppDemo {
 
-    public static void main(String[] args) throws Exception{
-        Document doc=  Jsoup.connect("https://www.bing.com/search?")
+    public static void main(String[] args) throws Exception {
+        Document doc = Jsoup.connect("https://cn.bing.com/search?")
                 .userAgent("Mozilla")
-                .data("q","圣墟")
+                .data("q", "圣墟")
                 .get();
-        System.out.println(doc.title());
+//        System.out.println(doc.body().getElementById("b_content"));
+        Element content = doc.body().getElementById("b_content");
+
+        System.out.println(doc.getElementsByClass("b_algo"));
+
 
     }
 }
