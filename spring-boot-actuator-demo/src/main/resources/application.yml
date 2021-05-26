@@ -7,6 +7,4 @@ management:
       exposure:
         include: "*"
       base-path: /info
-      cors:
-        allowed-methods: "*"
-        allowed-origins: "*"
+
