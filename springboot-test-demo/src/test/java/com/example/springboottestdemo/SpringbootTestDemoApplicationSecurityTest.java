@@ -26,6 +26,7 @@ class SpringbootTestDemoApplicationSecurityTest {
 
     @Autowired
     private WebApplicationContext webContext;
+
     @Autowired
     private MockMvc mvc;
 
