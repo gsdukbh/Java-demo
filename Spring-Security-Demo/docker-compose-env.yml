@@ -1,0 +1,13 @@
+version: '3'
+services:
+  mysql8:
+    image: mysql:8.0.4-rc
+    container_name: mysql
+    ports:
+    - 3306:3306
+    entrypoint:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./mydata/mysql/data/db:/var/lib/mysql #数据文件挂载
+#      - ./mydata/mysql/data/conf:/etc/mysql/conf.d #配置文件挂载
+      - ./mydata/mysql/log:/var/log/mysql #日志文件挂载

@@ -21,6 +21,9 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.xerial:sqlite-jdbc:3.34.0'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'com.zsoltfabok:sqlite-dialect:1.0'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
