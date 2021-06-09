@@ -1,6 +1,7 @@
 package top.werls.springsecurity.demo;
 
 import lombok.Data;
+import lombok.Getter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

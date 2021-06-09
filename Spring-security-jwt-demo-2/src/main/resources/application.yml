@@ -1,0 +1,15 @@
+jwt:
+  secret: a13yZjSg3CmwvG7F2uav2RgGRBJsd+P8N5H0CrkW5MGdOXTnpYtP/QvaBEh7stJhHZ8EKXxakLe6oV+trB/TYw==
+  expiration: 604800
+  tokenHead: auth
+  interval: 1800
+  tokenHeader: Authorization #JWT存储的请求头
+
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:data.db
+  jpa:
+    database-platform: org.hibernate.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: create
