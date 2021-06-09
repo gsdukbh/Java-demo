@@ -55,7 +55,7 @@ public class Config implements WebMvcConfigurer {
     private DataSource dataSource;
 
     /**
-     *  配置 记住我 永久令牌
+     *  配置 记住我 持久令牌
      * @return
      */
     @Bean
