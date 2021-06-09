@@ -1,0 +1,16 @@
+jwt:
+  tokenHeader: Authorization
+  secret: werls.top.xx.demo
+  iss: werls
+  aud: web
+  prefix: Bearer
+  expiration: 604800
+
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:data.db
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.SQLiteDialect
