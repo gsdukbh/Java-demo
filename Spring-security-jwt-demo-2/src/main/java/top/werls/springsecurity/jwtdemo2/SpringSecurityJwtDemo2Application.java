@@ -22,7 +22,6 @@ import java.util.Map;
 
 @SpringBootApplication
 @RestController
-//@EnableJpaRepositories
 public class SpringSecurityJwtDemo2Application {
 
     public static void main(String[] args) {

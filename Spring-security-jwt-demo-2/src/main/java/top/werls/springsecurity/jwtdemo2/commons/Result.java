@@ -54,6 +54,8 @@ public class Result<T> implements Serializable {
 
     private Integer code;
 
+    private Long timeStamp;
+
     private T data;
 
     public Result() {
@@ -63,41 +65,47 @@ public class Result<T> implements Serializable {
         this.message = message;
         this.code = code;
         this.data = data;
+        this.timeStamp = System.currentTimeMillis();
     }
 
     public static <T> Result<T> success(T data) {
-        return new Result<T>(ResultCode.SUCCESS.getMessage(),ResultCode.SUCCESS.getCode(),data);
+        return new Result<T>(ResultCode.SUCCESS.getMessage(), ResultCode.SUCCESS.getCode(), data);
     }
 
-    public static <T> Result<T> success(T data,String message) {
-        return new Result<T>(message,ResultCode.SUCCESS.getCode(),data);
+    public static <T> Result<T> success(T data, String message) {
+        return new Result<T>(message, ResultCode.SUCCESS.getCode(), data);
     }
+
     public static <T> Result<T> failed(T data) {
-        return new Result<T>(ResultCode.FAILED.getMessage(),ResultCode.FAILED.getCode(),data);
+        return new Result<T>(ResultCode.FAILED.getMessage(), ResultCode.FAILED.getCode(), data);
     }
-    public static <T> Result<T> failed(T data,String message) {
-        return new Result<T>(message,ResultCode.FAILED.getCode(),data);
+
+    public static <T> Result<T> failed(T data, String message) {
+        return new Result<T>(message, ResultCode.FAILED.getCode(), data);
     }
-    public static <T> Result<T> validateFailed(T data,String message) {
-        return new Result<T>(message,ResultCode.VALIDATE_FAILED.getCode(),data);
+
+    public static <T> Result<T> validateFailed(T data, String message) {
+        return new Result<T>(message, ResultCode.VALIDATE_FAILED.getCode(), data);
     }
+
     public static <T> Result<T> validateFailed(T data) {
-        return new Result<T>(ResultCode.VALIDATE_FAILED.getMessage(), ResultCode.VALIDATE_FAILED.getCode(),data);
+        return new Result<T>(ResultCode.VALIDATE_FAILED.getMessage(), ResultCode.VALIDATE_FAILED.getCode(), data);
     }
-    public static <T> Result<T> unauthorized(T data,String message) {
-        return new Result<T>(message,ResultCode.UNAUTHORIZED.getCode(),data);
+
+    public static <T> Result<T> unauthorized(T data, String message) {
+        return new Result<T>(message, ResultCode.UNAUTHORIZED.getCode(), data);
     }
+
     public static <T> Result<T> unauthorized(T data) {
-        return new Result<T>(ResultCode.UNAUTHORIZED.getMessage(), ResultCode.FAILED.getCode(),data);
+        return new Result<T>(ResultCode.UNAUTHORIZED.getMessage(), ResultCode.FAILED.getCode(), data);
     }
+
     public static <T> Result<T> forbidden(T data) {
-        return new Result<T>(ResultCode.UNAUTHORIZED.getMessage(), ResultCode.FAILED.getCode(),data);
-    }
-    public static <T> Result<T> forbidden(T data,String message) {
-        return new Result<T>(message, ResultCode.FORBIDDEN.getCode(),data);
+        return new Result<T>(ResultCode.UNAUTHORIZED.getMessage(), ResultCode.FAILED.getCode(), data);
     }
 
-
-
+    public static <T> Result<T> forbidden(T data, String message) {
+        return new Result<T>(message, ResultCode.FORBIDDEN.getCode(), data);
+    }
 
 }
