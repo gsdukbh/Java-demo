@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+resourceServer: http://127.0.0.1:8090/messages
+
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        provider:
+          spring:
+            issuer-uri: http://sample.auth:9000
+        registration:
+          clientId:
+            provider: spring
+            client-id: clientId
+            client-secret: secret
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://127.0.0.1:8080/login/oauth2"
+            scope: openid
+            client-name: clientId
+          client-authorization-code:
+            provider: spring
+            client-id: clientId
+            client-secret: secret
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://127.0.0.1:8080/authorized"
+            scope: read,write
+            client-name: client-authorization-code
+          client-credentials:
+            provider: spring
+            client-id: clientId
+            client-secret: secret
+            authorization-grant-type: client_credentials
+            scope: read,write
+            client-name: client-credentials
