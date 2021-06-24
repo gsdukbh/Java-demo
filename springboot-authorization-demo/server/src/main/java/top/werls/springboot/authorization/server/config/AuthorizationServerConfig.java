@@ -11,6 +11,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.OAuth2AuthorizationServerConfiguration;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.core.AuthorizationGrantType;
 import org.springframework.security.oauth2.core.ClientAuthenticationMethod;
 import org.springframework.security.oauth2.core.oidc.OidcScopes;
@@ -42,14 +43,14 @@ public class AuthorizationServerConfig {
     public RegisteredClientRepository registeredClientRepository(){
         RegisteredClient client = RegisteredClient.withId(UUID.randomUUID().toString())
                 .clientId("clientId")
-                .clientSecret("secret")
+                .clientSecret(new BCryptPasswordEncoder().encode("secret"))
                 .clientSettings(clientSettings -> clientSettings.requireUserConsent(true))
                 .clientAuthenticationMethod(ClientAuthenticationMethod.BASIC)
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
                 .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)
-                .authorizationGrantType(AuthorizationGrantType.PASSWORD)
-                .redirectUri("http://127.0.0.1:8080/login/oauth2")
+                .redirectUri("http://127.0.0.1:8080/login/oauth2/code/authorization")
+                .redirectUri("http://127.0.0.1:8080/login/oauth2/code/clientId")
                 .redirectUri("http://127.0.0.1:8080/authorized")
                 .scope(OidcScopes.OPENID)
                 .scope("read")
@@ -73,4 +74,6 @@ public class AuthorizationServerConfig {
     public ProviderSettings providerSettings() {
         return new ProviderSettings().issuer("http://sample.auth:9000");
     }
+
+
 }

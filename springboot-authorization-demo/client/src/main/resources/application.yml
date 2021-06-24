@@ -16,23 +16,23 @@ spring:
           clientId:
             provider: spring
             client-id: clientId
-            client-secret: secret
+            client-secret: $2a$10$KzZZQSWKS0zHnrrBPcaQ7O1pj7HvKMXvM0m..c95l4FfW9GRliopG
             authorization-grant-type: authorization_code
-            redirect-uri: "http://127.0.0.1:8080/login/oauth2"
+            redirect-uri: "http://127.0.0.1:8080/login/oauth2/code/{registrationId}"
             scope: openid
             client-name: clientId
           client-authorization-code:
             provider: spring
             client-id: clientId
-            client-secret: secret
+            client-secret: $2a$10$KzZZQSWKS0zHnrrBPcaQ7O1pj7HvKMXvM0m..c95l4FfW9GRliopG
             authorization-grant-type: authorization_code
             redirect-uri: "http://127.0.0.1:8080/authorized"
             scope: read,write
-            client-name: client-authorization-code
+            client-name: cs
           client-credentials:
             provider: spring
             client-id: clientId
-            client-secret: secret
+            client-secret: $2a$10$KzZZQSWKS0zHnrrBPcaQ7O1pj7HvKMXvM0m..c95l4FfW9GRliopG
             authorization-grant-type: client_credentials
             scope: read,write
             client-name: client-credentials
