@@ -52,16 +52,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().antMatchers("/login").permitAll();
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/public/**").permitAll()
+                .antMatchers("/public/**","/oauth2/**").permitAll()
                 .anyRequest().authenticated()
-                .and()
-                .exceptionHandling()
-                .accessDeniedHandler(restfulAccessDeniedHandler)
-                .authenticationEntryPoint(restAuthenticationEntryPoint)
+//                .and()
+//                .exceptionHandling()
+//                .accessDeniedHandler(restfulAccessDeniedHandler)
+//                .authenticationEntryPoint(restAuthenticationEntryPoint)
                 .and()
                 .addFilterBefore(jwtAuthenticationTokenFilter, UsernamePasswordAuthenticationFilter.class)
-                .sessionManagement()// 基于token，所以不需要session
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-               ;
+       //         .sessionManagement()// 基于token，所以不需要session
+         //       .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+     //   .and()
+        .oauth2Login()
+        ;
     }
 }
