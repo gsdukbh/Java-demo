@@ -19,6 +19,7 @@ import top.werls.springsecurity.jwtdemo2.entity.DemoUser;
 import top.werls.springsecurity.jwtdemo2.service.DemoUserDetailsServiceImpl;
 
 import javax.crypto.SecretKey;
+import java.security.Principal;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,9 +38,14 @@ public class SpringSecurityJwtDemo2Application {
 
 
     @GetMapping("/private")
-    public Result<?> privateGet(@AuthenticationPrincipal OAuth2User principal) {
+    public Result<?> privateGet( Principal principal) {
 
-        System.out.println(principal.getAttributes());
+
+        return Result.success(principal);
+    }
+    @GetMapping("/OAuth2User")
+    public Result<?> oauth2(@AuthenticationPrincipal OAuth2User principal) {
+
         return Result.success(principal);
     }
 
@@ -51,7 +57,7 @@ public class SpringSecurityJwtDemo2Application {
     @Autowired
     private DemoUserDetailsServiceImpl userDetailsService;
 
-//    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
     public Result<?> login(@RequestBody DemoUser umsAdminLoginParam, BindingResult result) {
         String token = userDetailsService.login(umsAdminLoginParam.getUsername(), umsAdminLoginParam.getPassword());
         if (token == null) {

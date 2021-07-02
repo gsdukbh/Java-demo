@@ -1,1 +1,9 @@
-rootProject.name = 'Spring-security-jwt-demo-2'
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.spring.io/release' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'SpringSecurityJwtDemoTwo'
