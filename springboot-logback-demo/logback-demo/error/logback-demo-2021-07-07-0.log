@@ -1,0 +1,8 @@
+2021-07-07 21:19:33.591 ERROR 4599 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 21:22:32.287 ERROR 4669 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 21:36:17.578 ERROR 5119 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 21:40:38.327 ERROR 5207 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 23:06:03.444 ERROR 6247 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 23:07:23.610 ERROR 6278 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 23:19:30.968 ERROR 6522 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-07 23:57:36.992 ERROR 7198 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean

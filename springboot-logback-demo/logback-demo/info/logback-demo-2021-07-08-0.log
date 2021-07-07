@@ -1,0 +1,12 @@
+2021-07-08 00:06:46.526  INFO 7362 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Starting SpringbootLogbackDemoApplication using Java 11.0.10 on Lees-MacBook-Pro.local with PID 7362 (/Users/leejiawei/Documents/GitHub/Java/springboot-logback-demo/build/classes/java/main started by leejiawei in /Users/leejiawei/Documents/GitHub/Java/springboot-logback-demo)
+2021-07-08 00:06:46.529  INFO 7362 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : No active profile set, falling back to default profiles: default
+2021-07-08 00:06:47.216  INFO 7362 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-08 00:06:47.224  INFO 7362 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-08 00:06:47.225  INFO 7362 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-08 00:06:47.276  INFO 7362 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-08 00:06:47.277  INFO 7362 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 715 ms
+2021-07-08 00:06:47.597  INFO 7362 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-08 00:06:47.607  INFO 7362 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Started SpringbootLogbackDemoApplication in 1.692 seconds (JVM running for 2.34)
+2021-07-08 00:06:47.610  INFO 7362 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-08 00:06:47.610  WARN 7362 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean
+2021-07-08 00:06:47.610 ERROR 7362 --- [main] t.w.s.l.SpringbootLogbackDemoApplication : Spring boot启动初始化了 137 个 Bean

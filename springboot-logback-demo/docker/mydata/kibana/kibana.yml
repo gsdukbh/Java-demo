@@ -1,0 +1,11 @@
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: ["http://es:9200"]
+#monitoring.ui.container.elasticsearch.enabled: true
+i18n.locale: "zh-CN"
+#enterpriseSearch:
+#  host: "http://es:9200"
+# elasticsearch.username: "kibana_system"
+# elasticsearch.password: "lijiawei"
+# xpack.security.enabled: true
+#xpack.encryptedSavedObjects.encryptionKey: "something_at_least_32_characters"
