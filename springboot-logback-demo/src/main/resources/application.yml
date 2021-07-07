@@ -1,0 +1,10 @@
+logging:
+  charset:
+    file: utf-8
+  file:
+    path: ./
+    name: logback-demo
+  level: info
+
+logstash:
+  host: 127.0.0.1

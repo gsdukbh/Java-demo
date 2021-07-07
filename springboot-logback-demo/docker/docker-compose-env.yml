@@ -1,0 +1,49 @@
+version: '3'
+services:
+  elasticsearch:
+    image: elasticsearch:7.12.0
+    container_name: elasticsearch
+    mem_limit: 512m
+    memswap_limit: 512m
+    environment:
+      - "cluster.name=elasticsearch" #设置集群名称为elasticsearch
+      - "discovery.type=single-node" #以单一节点模式启动
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m" #设置使用jvm内存大小
+    volumes:
+      - ./mydata/elasticsearch/plugins:/usr/share/elasticsearch/plugins #插件文件挂载
+      - ./mydata/elasticsearch/data:/usr/share/elasticsearch/data #数据文件挂载./
+    ports:
+      - 9200:9200
+      - 9300:9300
+  logstash:
+    image: logstash:7.12.0
+    container_name: logstash
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - ./mydata/logstash/log.log:/usr/share/logstash/config/log.log
+      - ./mydata/logstash/logstash.conf:/usr/share/logstash/config/logstash.conf
+      - ./mydata/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml #挂载logstash的配置文件
+#    depends_on:
+#      - elasticsearch #kibana在elasticsearch启动之后再启动
+    links:
+      - elasticsearch:es #可以用es这个域名访问elasticsearch 服务
+    ports:
+      - 4560:4560
+      - 4561:4561
+      - 4562:4562
+      - 4563:4563
+  kibana:
+    image: kibana
+    container_name: kibana
+    volumes:
+      - ./mydata/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+    external_links:
+      - elasticsearch:es #可以用es这个域名访问elasticsearch服务
+    depends_on:
+      - elasticsearch #kibana在elasticsearch启动之后再启动
+    environment:
+      - I18N_LOCALE:ZH-CN
+      - ELASTICSEARCH_HOSTS:http://es:9200
+    ports:
+      - 5601:5601
