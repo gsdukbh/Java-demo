@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
+        </processorPath>
+        <module name="springboot-authorization-demo.server.main" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Java11-HttpClient-deom" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-authorization-demo.client" target="11" />
+      <module name="springboot-authorization-demo.client.main" target="11" />
+      <module name="springboot-authorization-demo.client.test" target="11" />
+      <module name="springboot-authorization-demo.resource" target="11" />
+      <module name="springboot-authorization-demo.resource.main" target="11" />
+      <module name="springboot-authorization-demo.resource.test" target="11" />
+      <module name="springboot-authorization-demo.server" target="11" />
+      <module name="springboot-authorization-demo.server.main" target="11" />
+      <module name="springboot-authorization-demo.server.test" target="11" />
+      <module name="springboot-swagger-demo.main" target="11" />
+      <module name="springboot-swagger-demo.test" target="11" />
+      <module name="springboot-valid-from-demo.main" target="11" />
+      <module name="springboot-valid-from-demo.test" target="11" />
+      <module name="SpringNativedemo" target="11" />
+      <module name="SpringNativedemo.aot" target="11" />
+      <module name="SpringNativedemo.aotTest" target="11" />
+      <module name="SpringNativedemo.main" target="11" />
+      <module name="SpringNativedemo.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

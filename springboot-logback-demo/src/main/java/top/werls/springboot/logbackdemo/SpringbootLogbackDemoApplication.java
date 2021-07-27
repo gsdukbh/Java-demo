@@ -17,6 +17,7 @@ public class SpringbootLogbackDemoApplication {
         log.info("Spring boot启动初始化了 {} 个 Bean", length);
         log.warn("Spring boot启动初始化了 {} 个 Bean", length);
         log.error("Spring boot启动初始化了 {} 个 Bean", length);
+
     }
 
 }

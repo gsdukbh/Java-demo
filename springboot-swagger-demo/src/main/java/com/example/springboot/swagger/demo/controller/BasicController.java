@@ -1,7 +1,7 @@
 package com.example.springboot.swagger.demo.controller;
 
-import com.example.springboot.swagger.demo.common.Result;
-import com.example.springboot.swagger.demo.entity.User;
+import com.example.springboot.swagger.demo.common.BasicResult;
+import com.example.springboot.swagger.demo.entity.DemoUser;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ import java.util.*;
 @RestController
 @Api(tags = "BasicController",produces = "s")
 public class BasicController {
-    static Map<Integer, User> users = Collections.synchronizedMap(new HashMap<>());
+    static Map<Integer, DemoUser> users = Collections.synchronizedMap(new HashMap<>());
 
     @ApiOperation("获取所有品牌列表")
     @GetMapping("/ge")
@@ -31,8 +31,8 @@ public class BasicController {
     @ApiResponses({
             @ApiResponse(code = 100, message = "异常数据")
     })
-    public Result<Map<Integer, User>> getUserList() {
-        return Result.successWithData(users);
+    public BasicResult<Map<Integer, DemoUser>> getUserList() {
+        return BasicResult.successWithData(users);
     }
     @ApiOperation(value = "创建用户", notes = "根据User对象创建用户")
     @ApiImplicitParams({
@@ -40,8 +40,8 @@ public class BasicController {
             @ApiImplicitParam(name = "name", value = "用户名", required = true, dataType = "String", paramType = "query"),
     })
     @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public Result<User> postUser(@ApiIgnore User user) {
+    public BasicResult<DemoUser> postUser(@ApiIgnore DemoUser user) {
         users.put(user.getId(), user);
-        return Result.successWithData(user);
+        return BasicResult.successWithData(user);
     }
 }

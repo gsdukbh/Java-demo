@@ -1,0 +1,16 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 80
+
+location: "upload-dir"
+minio:
+  username: root
+  password: lijiawei
+  url: http://127.0.0.1:9000
+  bucketName: upload

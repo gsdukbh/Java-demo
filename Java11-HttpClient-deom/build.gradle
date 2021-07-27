@@ -1,0 +1,40 @@
+plugins {
+//    id 'application'
+    id 'java'
+}
+
+group 'top.werls'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.alibaba:fastjson:1.2.76'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+//application {
+//    mainClassName = "top.werls.jsoup.AppDemo"
+//}
+//jar {
+//    sourceCompatibility = '11'
+////      配置jar 包主类 https://stackoverflow.com/questions/4871656/using-gradle-to-build-a-jar-with-dependencies?answertab=active#tab-top
+////    from {
+////        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+////    }
+//    // 新方法 ，https://docs.gradle.org/current/userguide/working_with_files.html#sec:creating_uber_jar_example
+//    from {
+//        configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }
+//    }
+//    manifest {
+//        attributes(
+//                'Main-Class': 'top.werls.jsoup.AppDemo'
+//        )
+//    }
+//}

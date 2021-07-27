@@ -13,7 +13,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import top.werls.springsecurity.jwtdemo2.entity.DemoUser;
+import top.werls.springsecurity.jwtdemo2.entity.BasicUser;
 import top.werls.springsecurity.jwtdemo2.utils.JwtTokenUtil;
 
 import java.util.ArrayList;
@@ -50,7 +50,7 @@ public class DemoUserDetailsServiceImpl implements UserDetailsService {
      */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        DemoUser user = new DemoUser();
+        BasicUser user = new BasicUser();
         user.setUsername("user");
         user.setPassword(passwordEncoder.encode("password"));
         List<GrantedAuthority> authorities = new ArrayList<>();

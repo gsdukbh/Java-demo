@@ -4,73 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="955222e9-83a5-4c18-bf92-462b8cc9755b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-05T231107.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-05T231909.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-05T233547.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-security-angular-demo.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/src/main/java/com/example/springsecurityangulardemo/SpringSecurityAngularDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/src/test/java/com/example/springsecurityangulardemo/SpringSecurityAngularDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-angular-demo/web/yarn.lock" beforeDir="false" />
+    <list default="true" id="147bd9f4-2ec0-4a06-888e-a88979899042" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/AsyncDownload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/AsyncGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/ConcurrentRequests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/FX_GmlG_RIA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HeaderSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HttpAuthenticator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HttpAuthenticator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HttpConnectTimeoutException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/PostJson$Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/PostJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/SyncGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/UpFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/imgs.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/SpringSecurityJwtDemo2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/SpringSecurityJwtDemo2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/commons/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/commons/BasicResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/DemoRuleJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/BasicRuleJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/DemoUserJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/BasicUserJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/DemoRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/BasicRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/DemoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/BasicUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestfulAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestfulAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/service/DemoUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/service/DemoUserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-logback-demo/src/main/java/top/werls/springboot/logbackdemo/SpringbootLogbackDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-logback-demo/src/main/java/top/werls/springboot/logbackdemo/SpringbootLogbackDemoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,151 +51,111 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/spring-authorization-server-demo">
+    <projectState path="$PROJECT_DIR$/Java-App-Multi-Lib-Deom">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$/spring-security-angular-demo">
+    <projectState path="$PROJECT_DIR$/Java11-HttpClient-deom">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$/spring-authorization-server-demo">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/spring-security-angular-demo">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-security-angular-demo" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-security-angular-demo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-security-angular-demo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+    <projectState path="$PROJECT_DIR$/Jsoup-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Spring-Boot-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Spring-Native-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Spring-Security-Demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Spring-Security-jwt-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Spring-security-jwt-demo-2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/oauth2-client-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spring-boot-actuator-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spring-boot-rabbitmq-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spring-boot-tasks-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-authorization-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-logback-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-rabbitmq-demo2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-security-ldap-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-swagger-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-test-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-upload-file">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-valid-from-demo">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1l9VgtKfVcIGhyCOge2tudCyQrX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1vFYAAnZHMkU7vZW9J9jdnZjOPp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/spring-security-angular-demo/web/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.配色方案字体" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RestClientSettings">
-    <option name="REQUEST_HISTORY">
-      <list>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="5C1446CD4F100BB77C579922C5382D0F" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080/resource" />
-          <option name="urlPath" value="" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080/resource" />
-          <option name="urlPath" value="" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-      </list>
-    </option>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="gradle --build-cache" />
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-        <option value="js.build_tools.npm" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="npm.lint">
-    <configuration name="SpringAuthorizationServerDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.springauthorizationserverdemo.SpringAuthorizationServerDemoApplication" />
-      <module name="spring-authorization-server-demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.springauthorizationserverdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -234,179 +167,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAuthorizationServerDemoApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-authorization-server-demo" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.demo.springauthorizationserverdemo.SpringAuthorizationServerDemoApplicationTests.contextLoads&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="spring-security-angular-demo [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-security-angular-demo" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="E2E Tests (untitled)" type="JavaScriptTestRunnerProtractor">
-      <config-file value="$PROJECT_DIR$/untitled/e2e/protractor.conf.js" />
-      <node-interpreter value="project" />
-      <protractor-options value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="E2E Tests (web)" type="JavaScriptTestRunnerProtractor">
-      <config-file value="$PROJECT_DIR$/spring-security-angular-demo/web/e2e/protractor.conf.js" />
-      <node-interpreter value="project" />
-      <protractor-options value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Angular Application (untitled)" type="JavascriptDebugType" uri="http://localhost:4200">
-      <method v="2" />
-    </configuration>
-    <configuration name="SpringSecurityAngularDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-security-angular-demo.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurityangulardemo.SpringSecurityAngularDemoApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="SpringSecurityJwtDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Security-jwt-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springsecurity.jwtdemo.SpringSecurityJwtDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Angular CLI Server (web)" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/spring-security-angular-demo/web/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/spring-security-angular-demo/web/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="lint" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.lint" />
-        <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="Gradle.spring-security-angular-demo [clean]" />
-        <item itemvalue="Gradle.SpringAuthorizationServerDemoApplicationTests.contextLoads" />
-        <item itemvalue="Application.SpringAuthorizationServerDemoApplication" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="955222e9-83a5-4c18-bf92-462b8cc9755b" name="Default Changelist" comment="" />
-      <created>1607009413450</created>
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="147bd9f4-2ec0-4a06-888e-a88979899042" name="默认变更列表" comment="" />
+      <created>1626159159272</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607009413450</updated>
-      <workItem from="1607009415010" duration="54000" />
-      <workItem from="1607009476530" duration="314000" />
-      <workItem from="1607009797093" duration="193000" />
-      <workItem from="1607010120435" duration="128000" />
-      <workItem from="1607010309854" duration="80000" />
-      <workItem from="1607044237718" duration="621000" />
-      <workItem from="1607045174050" duration="528000" />
-      <workItem from="1607048873321" duration="807000" />
-      <workItem from="1607061865113" duration="3153000" />
-      <workItem from="1607086494928" duration="321000" />
-      <workItem from="1607087232147" duration="1479000" />
-      <workItem from="1607088925103" duration="652000" />
-      <workItem from="1607090235547" duration="1568000" />
-      <workItem from="1607180285746" duration="439000" />
-      <workItem from="1607180882332" duration="2601000" />
-      <workItem from="1611123001807" duration="191000" />
-      <workItem from="1611124286925" duration="92000" />
-      <workItem from="1611124453398" duration="527000" />
-      <workItem from="1611125036052" duration="687000" />
+      <updated>1626159159272</updated>
+      <workItem from="1626159163606" duration="717000" />
+      <workItem from="1626167470829" duration="226000" />
+      <workItem from="1626245538322" duration="712000" />
     </task>
-    <task id="LOCAL-00001" summary="🐶">
-      <created>1607183787700</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607183787700</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalStateException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

@@ -10,12 +10,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import top.werls.springsecurity.jwtdemo2.commons.Result;
-import top.werls.springsecurity.jwtdemo2.entity.DemoUser;
+import top.werls.springsecurity.jwtdemo2.commons.BasicResult;
+import top.werls.springsecurity.jwtdemo2.entity.BasicUser;
 import top.werls.springsecurity.jwtdemo2.service.DemoUserDetailsServiceImpl;
 
 import javax.crypto.SecretKey;
@@ -32,21 +35,30 @@ public class SpringSecurityJwtDemo2Application {
     }
 
     @GetMapping("/public")
-    public Result<?> publicGet() {
-        return Result.success("hello public");
+    public BasicResult<?> publicGet() {
+        return BasicResult.success("hello public");
     }
 
 
     @GetMapping("/private")
-    public Result<?> privateGet( Principal principal) {
+    public BasicResult<?> privateGet( Principal principal) {
 
 
-        return Result.success(principal);
+        return BasicResult.success(principal);
     }
-    @GetMapping("/OAuth2User")
-    public Result<?> oauth2(@AuthenticationPrincipal OAuth2User principal) {
+    @GetMapping("/")
+    public BasicResult<?> oauth2(@AuthenticationPrincipal OAuth2User principal,Principal a) {
 
-        return Result.success(principal);
+        System.out.println(a);
+
+        Authentication authentication =
+                SecurityContextHolder
+                        .getContext()
+                        .getAuthentication();
+
+        OAuth2AuthenticationToken oauthToken =
+                (OAuth2AuthenticationToken) authentication;
+        return BasicResult.success(principal);
     }
 
     @Value("${jwt.tokenHead}")
@@ -58,14 +70,14 @@ public class SpringSecurityJwtDemo2Application {
     private DemoUserDetailsServiceImpl userDetailsService;
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public Result<?> login(@RequestBody DemoUser umsAdminLoginParam, BindingResult result) {
+    public BasicResult<?> login(@RequestBody BasicUser umsAdminLoginParam, BindingResult result) {
         String token = userDetailsService.login(umsAdminLoginParam.getUsername(), umsAdminLoginParam.getPassword());
         if (token == null) {
-            return Result.validateFailed("用户名或密码错误");
+            return BasicResult.validateFailed("用户名或密码错误");
         }
         Map<String, String> tokenMap = new HashMap<>();
         tokenMap.put("token", token);
         tokenMap.put("tokenHead", tokenHead);
-        return Result.success(tokenMap);
+        return BasicResult.success(tokenMap);
     }
 }

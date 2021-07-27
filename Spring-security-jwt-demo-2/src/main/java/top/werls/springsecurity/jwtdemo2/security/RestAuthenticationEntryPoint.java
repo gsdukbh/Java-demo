@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
-import top.werls.springsecurity.jwtdemo2.commons.Result;
+import top.werls.springsecurity.jwtdemo2.commons.BasicResult;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -35,7 +35,7 @@ public class RestAuthenticationEntryPoint implements AuthenticationEntryPoint {
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("application/json");
-        response.getWriter().println(JSON.toJSONString(Result.unauthorized(authException.getMessage())));
+        response.getWriter().println(JSON.toJSONString(BasicResult.unauthorized(authException.getMessage())));
         response.getWriter().flush();
     }
 }

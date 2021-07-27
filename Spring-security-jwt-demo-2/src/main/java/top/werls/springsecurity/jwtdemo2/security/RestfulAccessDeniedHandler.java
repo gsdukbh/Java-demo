@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.stereotype.Component;
-import top.werls.springsecurity.jwtdemo2.commons.Result;
+import top.werls.springsecurity.jwtdemo2.commons.BasicResult;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -29,7 +29,7 @@ public class RestfulAccessDeniedHandler implements AccessDeniedHandler {
     public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException accessDeniedException) throws IOException, ServletException {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("application/json");
-        response.getWriter().println(JSON.toJSONString(Result.forbidden(accessDeniedException.getMessage())));
+        response.getWriter().println(JSON.toJSONString(BasicResult.forbidden(accessDeniedException.getMessage())));
         response.getWriter().flush();
     }
 }
