@@ -16,25 +16,5 @@
         <module name="Java11-HttpClient-deom" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="springboot-authorization-demo.client" target="11" />
-      <module name="springboot-authorization-demo.client.main" target="11" />
-      <module name="springboot-authorization-demo.client.test" target="11" />
-      <module name="springboot-authorization-demo.resource" target="11" />
-      <module name="springboot-authorization-demo.resource.main" target="11" />
-      <module name="springboot-authorization-demo.resource.test" target="11" />
-      <module name="springboot-authorization-demo.server" target="11" />
-      <module name="springboot-authorization-demo.server.main" target="11" />
-      <module name="springboot-authorization-demo.server.test" target="11" />
-      <module name="springboot-swagger-demo.main" target="11" />
-      <module name="springboot-swagger-demo.test" target="11" />
-      <module name="springboot-valid-from-demo.main" target="11" />
-      <module name="springboot-valid-from-demo.test" target="11" />
-      <module name="SpringNativedemo" target="11" />
-      <module name="SpringNativedemo.aot" target="11" />
-      <module name="SpringNativedemo.aotTest" target="11" />
-      <module name="SpringNativedemo.main" target="11" />
-      <module name="SpringNativedemo.test" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -15,7 +15,7 @@ spring:
             clientSecret: 2211b12057efec9ff73b9814b60c5b5a05d10ab0
   datasource:
     driver-class-name: org.sqlite.JDBC
-    url: jdbc:sqlite:data.db
+    url: jdbc:sqlite:./data.db
   jpa:
     database-platform: org.hibernate.dialect.SQLiteDialect
     hibernate:

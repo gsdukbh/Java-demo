@@ -4,46 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147bd9f4-2ec0-4a06-888e-a88979899042" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="147bd9f4-2ec0-4a06-888e-a88979899042" name="默认变更列表" comment="add">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/AsyncDownload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/AsyncGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/ConcurrentRequests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/FX_GmlG_RIA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HeaderSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HttpAuthenticator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HttpAuthenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/HttpConnectTimeoutException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/PostJson$Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/PostJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/SyncGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/UpFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11-HttpClient-deom/target/classes/imgs.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Jsoup-demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/data.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java11-HttpClient-deom/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/SpringSecurityJwtDemo2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/SpringSecurityJwtDemo2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/commons/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/commons/BasicResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/DemoRuleJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/BasicRuleJpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/DemoUserJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/dao/BasicUserJpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/DemoRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/BasicRules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/DemoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/entity/BasicUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestfulAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/security/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/service/DemoUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/java/top/werls/springsecurity/jwtdemo2/service/DemoUserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-logback-demo/src/main/java/top/werls/springboot/logbackdemo/SpringbootLogbackDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-logback-demo/src/main/java/top/werls/springboot/logbackdemo/SpringbootLogbackDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-security-jwt-demo-2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-upload-file/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-upload-file/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-upload-file/src/main/java/top/werls/springbootuploadfile/Service/impl/StorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-upload-file/src/main/java/top/werls/springbootuploadfile/Service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-upload-file/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-upload-file/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,21 +110,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.配色方案字体" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootUploadFileApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -167,9 +150,135 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-authorization-demo.client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springboot.authorization.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ClientDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-client-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.oauth2clientdemo.Oauth2ClientDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-authorization-demo.resource.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springboot.authorization.resource.ResourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-authorization-demo.server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springboot.authorization.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootActuatorDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-actuator-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springboot.actuator.demo.SpringBootActuatorDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Boot-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootdemo.SpringBootDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRabbitmqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-rabbitmq-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootrabbitmqdemo.SpringBootRabbitmqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootTasksDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-tasks-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springBootTasksDemo.SpringBootTasksDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringNativeDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringNativedemo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springnative.demo.SpringNativeDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Security-Demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springsecurity.demo.SpringSecurityDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityJwtDemo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-security-jwt-demo-2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springsecurity.jwtdemo2.SpringSecurityJwtDemo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringSecurityJwtDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-Security-jwt-demo.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springsecurity.jwtdemo.SpringSecurityJwtDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLogbackDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-logback-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springboot.logbackdemo.SpringbootLogbackDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqDemo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-rabbitmq-demo2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootrabbitmqdemo2.SpringbootRabbitmqDemo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSecurityLdapDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-security-ldap-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootsecurityldapdemo.SpringbootSecurityLdapDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSwaggerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-swagger-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.swagger.demo.SpringbootSwaggerDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootTestDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-test-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboottestdemo.SpringbootTestDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootUploadFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-upload-file.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootuploadfile.SpringbootUploadFileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootValidFromDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-valid-from-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootvalidfromdemo.SpringbootValidFromDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,10 +295,26 @@
       <workItem from="1626159163606" duration="717000" />
       <workItem from="1626167470829" duration="226000" />
       <workItem from="1626245538322" duration="712000" />
+      <workItem from="1627454514616" duration="4178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>

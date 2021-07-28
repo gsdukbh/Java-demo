@@ -2,6 +2,7 @@ package top.werls.springbootuploadfile.Service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.annotation.Order;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
@@ -25,11 +26,12 @@ import java.util.stream.Stream;
 public class StorageServiceImpl implements StorageService {
 
     private final Path rootLocation;
-    @Value("${location}")
-    private String location;
+
+    private String location="upload";
 
     @Autowired
     public StorageServiceImpl() {
+        System.out.println(location);
         this.rootLocation = Paths.get(location);
     }
 

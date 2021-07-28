@@ -7,8 +7,6 @@ spring:
 
 server:
   port: 80
-
-location: "upload-dir"
 minio:
   username: root
   password: lijiawei
