@@ -1,4 +1,4 @@
-package top.werls.springbootuploadfile.app.Exception;
+package top.werls.springbootuploadfile.Exception;
 
 public class StorageException extends RuntimeException {
     public StorageException(String message) {

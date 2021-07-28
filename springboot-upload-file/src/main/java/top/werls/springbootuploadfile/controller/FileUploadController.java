@@ -1,4 +1,4 @@
-package top.werls.springbootuploadfile.app.controller;
+package top.werls.springbootuploadfile.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import top.werls.springbootuploadfile.app.Exception.StorageException;
-import top.werls.springbootuploadfile.app.Service.StorageService;
+import top.werls.springbootuploadfile.Exception.StorageException;
+import top.werls.springbootuploadfile.Service.StorageService;
+
 
 import java.io.IOException;
 import java.util.stream.Collectors;

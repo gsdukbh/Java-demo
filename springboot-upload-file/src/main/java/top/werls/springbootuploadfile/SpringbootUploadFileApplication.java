@@ -5,8 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import top.werls.springbootuploadfile.app.Service.StorageService;
+import top.werls.springbootuploadfile.Service.StorageService;
 
+
+/**
+ * @author leejiawei
+ */
 @SpringBootApplication
 //@EnableConfigurationProperties(StorageProperties.class)
 public class SpringbootUploadFileApplication {

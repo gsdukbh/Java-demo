@@ -1,4 +1,4 @@
-package top.werls.springbootuploadfile.app.Service;
+package top.werls.springbootuploadfile.Service;
 
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;

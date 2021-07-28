@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.web.servlet.MockMvc;
 import top.werls.springbootuploadfile.app.Exception.StorageException;
-import top.werls.springbootuploadfile.app.Service.StorageService;
+import top.werls.springbootuploadfile.app.StorageService;
 
 import java.nio.file.Paths;
 import java.util.stream.Stream;

@@ -1,4 +1,4 @@
-package top.werls.springbootuploadfile.app.util;
+package top.werls.springbootuploadfile.util;
 
 import io.minio.MinioClient;
 import org.springframework.beans.factory.annotation.Autowired;
