@@ -4,6 +4,7 @@ import io.minio.MinioClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import top.werls.springbootuploadfile.util.MinioUtil;
 
 import java.net.URL;
 
@@ -21,10 +22,9 @@ public class MinioConfig {
     @Value("${minio.bucketName}")
     private  String bucketName;
 
-
-    public void init (){
-
-
+    @Bean
+    public void minioInit (){
+        MinioUtil.minioInit(url,username,password,bucketName);
     }
 
 }

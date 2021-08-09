@@ -1,6 +1,8 @@
 package top.werls.springbootuploadfile.controller;
 
+import io.minio.errors.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
@@ -12,9 +14,12 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import top.werls.springbootuploadfile.Exception.StorageException;
 import top.werls.springbootuploadfile.Service.StorageService;
+import top.werls.springbootuploadfile.util.MinioUtil;
 
 
 import java.io.IOException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.util.stream.Collectors;
 
 /**
@@ -30,11 +35,26 @@ public class FileUploadController {
     @GetMapping("/")
     public String listUploadedFiles(Model model) throws IOException {
 
-        model.addAttribute("files", storageService.loadAll().map(
-                path -> MvcUriComponentsBuilder.fromMethodName(FileUploadController.class,
-                        "serveFile", path.getFileName().toString()).build().toUri().toString())
-                .collect(Collectors.toList()));
+        var filesObj= storageService.loadAll().map(
+                        path -> MvcUriComponentsBuilder.fromMethodName(FileUploadController.class,
+                                "serveFile", path.getFileName().toString()).build().toUri().toString())
+                .collect(Collectors.toList());
 
+        model.addAttribute("files",filesObj);
+
+        var list = MinioUtil.listObjects();
+        System.out.println("-----------------");
+        list.forEach(itemResult -> {
+            try {
+                var item = itemResult.get();
+
+                System.out.println(item.objectName());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        });
+        System.out.println("-----------------");
         return "uploadForm";
     }
 
@@ -57,6 +77,7 @@ public class FileUploadController {
                                    RedirectAttributes redirectAttributes) {
 
         storageService.store(file);
+        MinioUtil.fileUpload(file);
         redirectAttributes.addFlashAttribute("message",
                 "You successfully uploaded " + file.getOriginalFilename() + "!");
 
