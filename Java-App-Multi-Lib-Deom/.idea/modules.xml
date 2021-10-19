@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java11-HttpClient-deom.iml" filepath="$PROJECT_DIR$/.idea/Java11-HttpClient-deom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-App-Multi-Lib-Deom.iml" filepath="$PROJECT_DIR$/.idea/Java-App-Multi-Lib-Deom.iml" />
     </modules>
   </component>
 </project>
