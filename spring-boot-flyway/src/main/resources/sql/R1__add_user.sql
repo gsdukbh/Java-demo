@@ -1,0 +1,1 @@
+insert into system_user(username, password) values('admin', 'admin');
