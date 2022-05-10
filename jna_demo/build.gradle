@@ -1,0 +1,69 @@
+import javax.xml.transform.Source
+
+plugins {
+    id 'java'
+    id 'c'
+    id 'cpp'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.java.dev.jna:jna:5.11.0'
+    implementation 'net.java.dev.jna:jna-platform:5.11.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+model {
+    platforms {
+        x64 {
+            architecture "x64"
+        }
+    }
+    components {
+        test(NativeLibrarySpec) {
+            sources{
+                cpp {
+                    source {
+                        srcDir "src/hello"
+                        include "**/*.cpp"
+                    }
+                }
+            }
+            binaries.all {
+                // Register our custom check task to all binaries of this component
+                checkedBy $.tasks.copy
+            }
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty "java.library.path", file("${buildDir}/libs/test/shared").absolutePath
+}
+
+
+tasks.register('copy',Copy){
+    from  'build/libs/test/shared'
+    into 'src/main/resources'
+}
+
+jar {
+    dependsOn(copy)
+    // 新方法 ，https://docs.gradle.org/current/userguide/working_with_files.html#sec:creating_uber_jar_example
+    from {
+        configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }
+    }
+    duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+    manifest {
+        attributes(
+                'Main-Class': 'org.example.Main'
+        )
+    }
+}

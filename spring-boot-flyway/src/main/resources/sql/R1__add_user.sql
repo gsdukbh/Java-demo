@@ -1,1 +1,1 @@
-insert into system_user(username, password) values('admin', 'admin');
+insert into system_user(username, password) values('admin1', 'admin1');
