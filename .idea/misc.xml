@@ -4,10 +4,13 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Java-App-Multi-Lib-Deom" />
     <file type="web" url="file://$PROJECT_DIR$/Java11-HttpClient-deom" />
+    <file type="web" url="file://$PROJECT_DIR$/jna_demo" />
     <file type="web" url="file://$PROJECT_DIR$/Jsoup-demo" />
     <file type="web" url="file://$PROJECT_DIR$/oauth2-client-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-actuator-demo" />
     <file type="web" url="file://$PROJECT_DIR$/Spring-Boot-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-flyway" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-jwt" />
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-rabbitmq-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-tasks-demo" />
     <file type="web" url="file://$PROJECT_DIR$/Spring-Native-demo" />
@@ -34,9 +37,18 @@
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
-  <component name="SwUserDefinedSpecifications">
-    <option name="specTypeByUrl">
-      <map />
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="613" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/Jsoup-demo/src/main/java/top/werls/jsoup/AppDemo.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="243" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/springboot-security-ldap-demo/build.gradle" />
+        </OpenedFileInfo>
+      </list>
     </option>
   </component>
 </project>

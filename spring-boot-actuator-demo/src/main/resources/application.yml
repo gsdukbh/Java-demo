@@ -7,4 +7,5 @@ management:
       exposure:
         include: "*"
       base-path: /info
-
+server:
+  port: 8080
