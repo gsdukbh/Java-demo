@@ -1,0 +1,44 @@
+spring:
+  shardingsphere:
+    mode:
+      type: Memory
+    props:
+      sql-show: true
+    datasource:
+      name: master,slave1,slave2
+      master:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/test
+        username: root
+        password: 123456
+      slave1:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3307/test
+        username: root
+        password: 123456
+      slave2:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3308/test
+        username: root
+        password: 123456
+    rules:
+      sql-parser:
+        sql-comment-parse-enabled: true
+      readwrite-splitting:
+        data-sources:
+          google:
+            type: Static
+            load-balancer-name: github
+            load-balancers:
+              github:
+                type: round_robin
+            props:
+              write-data-source-name: master
+              read-data-source-names: slave1,slave2
+
+mybatis-plus:
+  global-config:
+    banner: false

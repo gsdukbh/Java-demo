@@ -12,10 +12,10 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-security")
-    compile("org.springframework.ldap:spring-ldap-core")
-    compile("org.springframework.security:spring-security-ldap")
-    compile("com.unboundid:unboundid-ldapsdk")
+    implementation "org.springframework.boot:spring-boot-starter-security"
+    implementation "org.springframework.ldap:spring-ldap-core"
+    implementation "org.springframework.security:spring-security-ldap"
+    implementation "com.unboundid:unboundid-ldapsdk"
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'

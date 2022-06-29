@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/dynamicDatabase" />
     <file type="web" url="file://$PROJECT_DIR$/Java-App-Multi-Lib-Deom" />
     <file type="web" url="file://$PROJECT_DIR$/Java11-HttpClient-deom" />
     <file type="web" url="file://$PROJECT_DIR$/jna_demo" />
