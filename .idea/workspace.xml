@@ -5,183 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="147bd9f4-2ec0-4a06-888e-a88979899042" name="默认变更列表" comment="add: readwrite-splitting">
-      <changelist_data name="li we" email="gsdukbh@gmail.com" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/#innodb_temp/temp_5.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/auto.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/binlog.000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/binlog.000002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/binlog.000003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/binlog.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/client-cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/ibtmp1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/accounts_145.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/data_lock_waits_161.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_errors_su_139.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_errors_su_143.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_stages_su_117.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_statement_123.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_statement_127.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_transacti_131.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_transacti_135.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_transacti_138.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_waits_cur_84.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_waits_his_86.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/events_waits_sum_88.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/keyring_componen_191.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/keyring_keys_152.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/memory_summary_b_154.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/memory_summary_b_155.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/persisted_variab_187.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/prepared_stateme_175.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/replication_appl_167.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/replication_appl_168.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/setup_consumers_103.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/socket_instances_147.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/status_by_accoun_177.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/table_io_waits_s_107.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/performance_schema/table_io_waits_s_108.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/test/sys_user.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/master/data/test/test.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/2a0610b5e72a-relay-bin.000004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/2a0610b5e72a-relay-bin.000005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/2a0610b5e72a-relay-bin.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/binlog.000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/binlog.000002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/binlog.000003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/binlog.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/client-key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/ib_buffer_pool" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/mysql/general_log.CSM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/mysql/slow_log.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/data_lock_waits_161.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/error_log_83.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_errors_su_139.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_errors_su_140.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_stages_hi_112.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_stages_su_114.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_stages_su_118.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_statement_120.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_statement_124.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_statement_127.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_transacti_132.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_transacti_135.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_waits_his_85.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_waits_sum_87.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_waits_sum_88.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/events_waits_sum_92.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/hosts_146.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/keyring_componen_191.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/log_status_174.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/persisted_variab_187.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/replication_appl_165.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/replication_appl_168.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/replication_asyn_172.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/replication_grou_169.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/session_account__151.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/session_variable_185.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/setup_threads_106.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/socket_summary_b_148.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/status_by_user_180.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/table_io_waits_s_108.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/tls_channel_stat_190.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/user_defined_fun_188.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/performance_schema/users_144.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/sys/sys_config.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/test/sys_user.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave1/data/test/test.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/#ib_16384_1.dblwr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/binlog.000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/binlog.000002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/binlog.000003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/binlog.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/client-cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/ef71a603f3b3-relay-bin.000004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/ef71a603f3b3-relay-bin.000005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/ef71a603f3b3-relay-bin.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/ib_buffer_pool" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/mysql/general_log.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/mysql/slow_log.CSM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/binary_log_trans_189.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/data_lock_waits_161.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_stages_su_116.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_statement_122.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_statement_126.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_statement_129.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_statement_130.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_transacti_134.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_transacti_137.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_transacti_138.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_waits_cur_84.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_waits_his_86.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_waits_sum_88.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/events_waits_sum_92.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/file_summary_by__94.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/memory_summary_b_154.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/mutex_instances_97.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/replication_appl_166.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/replication_appl_167.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/replication_grou_163.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/rwlock_instances_101.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/session_connect__150.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/setup_threads_106.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/status_by_thread_179.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/performance_schema/variables_by_thr_183.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/sys/sys_config.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/test/sys_user.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/test/test.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/mysql/slave2/data/undo_001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/DynamicDatabaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/java/top/werls/dynamicdatabase/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicDatabase/src/test/java/top/werls/dynamicdatabase/DynamicDatabaseApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/springboot-multi-mod.app.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/app/app.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/app/src/main/java/top/werls/springboot/multimod/SpringbootMultiModApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/app/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/app/src/test/java/top/werls/springboot/multimod/SpringbootMultiModApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/common/common.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/common/src/main/java/top/werls/springboot/multimod/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/common/src/test/java/top/werls/springboot/multimod/common/UtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-multi-mod/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-demo/src/main/java/top/werls/springbootdemo/SpringBootDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-demo/src/main/java/top/werls/springbootdemo/SpringBootDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/modules/jna_demo.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/modules/jna_demo.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jna_demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/src/hello/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/src/hello/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/src/hello/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/src/hello/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna_demo/src/hello/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-ldap-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-ldap-demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-upload-file/src/test/java/top/werls/springbootuploadfile/FileUploadControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-upload-file/src/test/java/top/werls/springbootuploadfile/FileUploadControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +87,9 @@
     <projectState path="$PROJECT_DIR$/springboot-logback-demo">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-multi-mod">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/springboot-rabbitmq-demo2">
       <ProjectState />
     </projectState>
@@ -271,29 +115,26 @@
         <task path="$PROJECT_DIR$/jna_demo">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/springboot-multi-mod">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jna_demo" type="f1a62948:ProjectNode" />
+                <item name="springboot-multi-mod" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jna_demo" type="f1a62948:ProjectNode" />
+                <item name="springboot-multi-mod" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jna_demo" type="f1a62948:ProjectNode" />
+                <item name="springboot-multi-mod" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jna_demo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -307,6 +148,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -364,14 +206,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/work/android2",
+    "last_opened_file_path": "D:/Development/Code/Github/weibo-cloud",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDK",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "59e87e82406abda0b041cfc7638eb378",
+    "spring.configuration.checksum": "2c4c27f8ee8e5553f56214d27b8e7768",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -392,9 +236,20 @@
       <recent name="D:\Development\Code\Github\Java-demo\dynamicDatabase\mysql\slave1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Code\Github\Java-demo\springboot-multi-mod\app\src\main\resources" />
       <recent name="D:\Development\Code\Github\Java-demo\dynamicDatabase\mysql\slave2\config" />
       <recent name="D:\Development\Code\Github\Java-demo\dynamicDatabase\mysql\slave1\config" />
       <recent name="D:\Development\Code\Github\Java-demo\dynamicDatabase" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="top.werls.springboot.multimod.common" />
+      <recent name="top.werls.springboot.multimod" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.werls.springboot.multimod" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,7 +259,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DynamicDatabaseApplication">
+  <component name="RunManager" selected="JAR 应用程序.common-0.0.1-SNAPSHOT-plain.jar">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -416,7 +271,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="运行单个请求">
+    <configuration name="UtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springboot-multi-mod" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":common:test" />
+            <option value="--tests" />
+            <option value="&quot;top.werls.springboot.multimod.common.UtilsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="springboot-multi-mod [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springboot-multi-mod" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="app-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/springboot-multi-mod/app/build/libs/app-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="common-0.0.1-SNAPSHOT-plain.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/springboot-multi-mod/common/build/libs/common-0.0.1-SNAPSHOT-plain.jar" />
       <method v="2" />
     </configuration>
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -541,6 +445,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootMultiModApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="springboot-multi-mod.app.main" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springboot.multimod.SpringbootMultiModApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootRabbitmqDemo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-rabbitmq-demo2.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.werls.springbootrabbitmqdemo2.SpringbootRabbitmqDemo2Application" />
@@ -589,46 +501,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamicDatabase: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="envFilePath" value="" />
-          <option name="sourceFilePath" value="dynamicDatabase/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="dynamicDatabase.mysql_master: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="mysql_master" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="dynamicDatabase/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="dynamicDatabase.mysql_slave1: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="mysql_slave1" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="dynamicDatabase/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.dynamicDatabase.mysql_master: Compose 部署" />
-      <item itemvalue="Docker.dynamicDatabase.mysql_slave1: Compose 部署" />
-      <item itemvalue="Docker.dynamicDatabase: Compose 部署" />
-      <item itemvalue="HTTP 请求.generated-requests | #1" />
+      <item itemvalue="Gradle.UtilsTest" />
+      <item itemvalue="Gradle.springboot-multi-mod [bootJar]" />
+      <item itemvalue="JAR 应用程序.app-0.0.1-SNAPSHOT.jar" />
+      <item itemvalue="JAR 应用程序.common-0.0.1-SNAPSHOT-plain.jar" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.DynamicDatabaseApplication" />
@@ -652,13 +529,15 @@
       <item itemvalue="Spring Boot.SpringSecurityDemoApplication" />
       <item itemvalue="Spring Boot.SpringSecurityJwtDemo2Application" />
       <item itemvalue="Spring Boot.SpringSecurityJwtDemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootMultiModApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP 请求.generated-requests | #1" />
-        <item itemvalue="Docker.dynamicDatabase: Compose 部署" />
-        <item itemvalue="Docker.dynamicDatabase.mysql_master: Compose 部署" />
-        <item itemvalue="Docker.dynamicDatabase.mysql_slave1: Compose 部署" />
+        <item itemvalue="JAR 应用程序.common-0.0.1-SNAPSHOT-plain.jar" />
+        <item itemvalue="JAR 应用程序.app-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="Gradle.springboot-multi-mod [bootJar]" />
+        <item itemvalue="Spring Boot.SpringbootMultiModApplication (1)" />
+        <item itemvalue="Gradle.UtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -695,7 +574,12 @@
       <workItem from="1655888269104" duration="2109000" />
       <workItem from="1655894273287" duration="3876000" />
       <workItem from="1655899781698" duration="20773000" />
-      <workItem from="1656340140806" duration="27360000" />
+      <workItem from="1656340140806" duration="27596000" />
+      <workItem from="1656513618209" duration="1615000" />
+      <workItem from="1656516343712" duration="55000" />
+      <workItem from="1656517976088" duration="948000" />
+      <workItem from="1656551922019" duration="804000" />
+      <workItem from="1656552892783" duration="7157000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1627459590947</created>
@@ -711,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627459702583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add: readwrite-splitting">
+      <created>1656483172626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656483172627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

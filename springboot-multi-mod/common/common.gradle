@@ -1,0 +1,12 @@
+
+dependencies {
+
+}
+
+bootJar{
+//     模块依赖
+    enabled = false
+}
+jar {
+    enabled = true
+}
