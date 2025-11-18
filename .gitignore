@@ -142,3 +142,5 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 /springboot-logback-demo/logback-demo/
+.idea
+**/.idea
