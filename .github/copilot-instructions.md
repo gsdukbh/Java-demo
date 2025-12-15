@@ -93,21 +93,6 @@
 - `*/README.md`：模块级运行说明（例如 `spring-boot-jwt/README.md` 含 token 示例，`dynamicDatabase/README.md` 含 MySQL 复制操作片段）。
 - `*/docker-compose.yml`：存在于 `dynamicDatabase/`、某些 rabbitmq 示例等，用于本地依赖服务。
 
-## 构建 / 运行 / 调试（可复制的命令示例）
-- 构建模块（在模块目录下）：
-  - `./gradlew build`
-- 运行 Spring Boot (开发运行)：
-  - `./gradlew bootRun`
-  - 或构建 jar 后运行：
-    - `./gradlew bootJar`
-    - `java -jar build/libs/*-SNAPSHOT.jar --spring.profiles.active=dev`
-- 使用本地容器（若模块含 `docker-compose.yml`）：
-  - `cd dynamicDatabase && docker-compose up -d`
-- 远程/调试端口：若需 attach JVM，先打包再以 JDWP 启动：
-  - `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 -jar build/libs/*.jar`
-
-## 测试
-- 模块级运行测试：在模块目录运行 `./gradlew test`。
 
 ## 常见项目约定与可发现模式
 - 端口与示例：许多 Spring 示例默认监听 `8080`；在修改或同时运行多个示例前先检查模块 `README.md` 或 `application.properties`/`application.yml` 以避免端口冲突（例如 `spring-boot-jwt/README.md` 假定服务在 `localhost:8080` 并提供 `/token` 接口）。
