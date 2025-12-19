@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.4.12'
+    id 'org.springframework.boot' version '4.0.0'
     id 'io.spring.dependency-management' version '1.1.7'
 }
 
@@ -16,14 +16,21 @@ java {
 
 repositories {
     mavenCentral()
+    maven { url 'https://central.sonatype.com/repository/maven-snapshots/' }
+    maven { url 'https://repo.spring.io/snapshot' }
+    maven { url 'https://repo.spring.io/milestone' }
 }
 
 ext {
-    set('springAiVersion', "1.1.2")
+    set('springAiVersion', "2.0.0-SNAPSHOT")
 }
 
 dependencies {
-    implementation 'org.springframework.ai:spring-ai-starter-mcp-server'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.20.1'
+    implementation "org.springframework.ai:spring-ai-starter-mcp-server"
+    implementation "org.springframework.ai:spring-ai-starter-mcp-server-webmvc"
+    implementation "org.springframework:spring-web"
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'

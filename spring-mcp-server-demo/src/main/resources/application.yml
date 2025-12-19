@@ -1,9 +1,13 @@
-# Using spring-ai-starter-mcp-server-streamable-webmvc
+# Using spring-ai-starter-mcp-server-webmvc
+
 spring:
+  main:
+    banner-mode: off
+# Using spring-ai-starter-mcp-server-streamable-webmvc
   ai:
     mcp:
       server:
-        protocol: STREAMABLE
+        protocol: sse
         name: streamable-mcp-server
         version: 1.0.0
         type: SYNC
@@ -11,6 +15,8 @@ spring:
         resource-change-notification: true
         tool-change-notification: true
         prompt-change-notification: true
-        streamable-http:
-          mcp-endpoint: /mcp
-          keep-alive-interval: 30s
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
