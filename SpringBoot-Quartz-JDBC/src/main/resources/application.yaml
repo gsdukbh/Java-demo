@@ -1,0 +1,37 @@
+server:
+  port: 18080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://129.154.199.201:3306/data_learn?useSSL=true&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: ${mysql_username}
+    password: ${mysql_password}
+  application:
+    name: SpringBoot-Quartz-JDBC
+  quartz:
+    job-store-type: jdbc
+    jdbc:
+      initialize-schema: always
+      platform: mysql
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceName: MyClusteredScheduler
+            # 自动生成实例ID，集群模式下必须唯一
+            instanceId: AUTO
+          jobStore:
+            # 开启集群
+            isClustered: true
+            # 集群节点检查间隔 (毫秒)
+            clusterCheckinInterval: 10000
+            # 交由 Spring Boot 复用 spring.datasource，避免独立初始化 quartzDs 失败
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+            threadPriority: 5
+logging:
+  charset:
+    console: UTF-8
+    file: UTF-8

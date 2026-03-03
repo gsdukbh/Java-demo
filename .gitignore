@@ -126,6 +126,7 @@ fabric.properties
 
 ### Gradle template
 .gradle
+
 **/build/
 !src/**/build/
 
